@@ -45,7 +45,11 @@ Taking Notes
 As a small business owner, I want to be able to write and save notes so that i can organize and keep track of tasks I need to complete.
 
 ## LiveLink
+https://glacial-gorge-53622.herokuapp.com/
 
+## Screen Shots
+![homescreen](public/assets/images/home%20screen.png),
+![notescreen](public/assets/images/note%20screen.png)
 ## Description
 
 Creates a note pad to be able to add new notes and delete then as they are finished.
@@ -62,8 +66,11 @@ No test at this time
 
 [Contributor Covenant](https://www.contributor-covenant.org/)
 https://courses.bootcampspot.com/courses/3150/assignments/49915?module_item_id=908325
+
 https://expressjs.com/en/guide/routing.html
+
 SMU BCS learning Assist #2488802 and #249095
+
 https://www.tabnine.com/code/javascript/functions/express/Express/delete
 
 ## Challenge
@@ -81,3 +88,6 @@ jamaweaver@yahoo.com
 ## Questions
 
 If you have any questions, please contact me at [Jason Weaver](Jamaweaver@yahoo.com) or visit my GitHub page at [Jweaver74](https://github.com/Jweaver74)
+
+
+[def]: public/assets/images/notespage.png
