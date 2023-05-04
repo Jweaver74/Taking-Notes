@@ -1,77 +1,83 @@
 # Talking Notes
-  ## Badges
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en)
 
-  ## Table of Contents
-  *[license](#license)
+## Badges
 
-  *[title](#title)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en)
 
-  *[usage](#usage)
+## Table of Contents
 
-  *[livelink](#livelink)
+\*[license](#license)
 
-  *[description](#description)
+\*[title](#title)
 
-  *[installation](#installation)
+\*[usage](#usage)
 
-  *[tests](#tests)
+\*[livelink](#livelink)
 
-  *[contributing](#contributing)
+\*[description](#description)
 
-  *[challenge](#challenge)
+\*[installation](#installation)
 
-  *[github](#github)
+\*[tests](#tests)
 
-  *[email](#email)
+\*[contributing](#contributing)
 
-  ## License
- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en)
+\*[challenge](#challenge)
 
-  This project is licensed under the MIT license.
-  https://opensource.org/licenses/MIT
+\*[github](#github)
 
+\*[email](#email)
 
-  ## Title
-  Taking Notes
+## License
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en)
 
-  ## Usage
-  As a small business owner, I want to be able to write and save notes so that i can organize and keep track of tasks I need to complete.
+This project is licensed under the MIT license.
+https://opensource.org/licenses/MIT
 
-  ## LiveLink
-  
+## Title
 
+Taking Notes
 
-  ## Description
-  Creates a note pad to be able to add new notes and delete then as they are finished.
+## Usage
 
+As a small business owner, I want to be able to write and save notes so that i can organize and keep track of tasks I need to complete.
 
-  ## Installation
-  Clone the Taking Notes from the repo and open in VScode. Once in VScode open new terminal and run "NPM I" to install the dependencies then "NPM start" and go to the local host that is specified.
+## LiveLink
 
+## Description
 
-  ## Tests
-  No test at this time
+Creates a note pad to be able to add new notes and delete then as they are finished.
 
+## Installation
 
-  ## Contributing
-  [Contributor Covenant](https://www.contributor-covenant.org/)
-  https://courses.bootcampspot.com/courses/3150/assignments/49915?module_item_id=908325, https://expressjs.com/en/guide/routing.html, SMU BCS learning Assist, 
+Clone the Taking Notes from the repo and open in VScode. Once in VScode open new terminal and run "NPM I" to install the dependencies then "NPM start" and go to the local host that is specified.
 
+## Tests
 
-  ## Challenge
-  Getting the proper paths to be able to run and have the notes to be saved and deleted.  Using Heroku for the first time was a huge challenge.
+No test at this time
 
+## Contributing
 
-  ## GitHub
-  https://github.com/Jweaver74
+[Contributor Covenant](https://www.contributor-covenant.org/)
+https://courses.bootcampspot.com/courses/3150/assignments/49915?module_item_id=908325
+https://expressjs.com/en/guide/routing.html
+SMU BCS learning Assist #2488802 and #249095
+https://www.tabnine.com/code/javascript/functions/express/Express/delete
 
+## Challenge
 
-  ## Email
-  jamaweaver@yahoo.com
+Getting the proper paths to be able to run and have the notes to be saved and deleted. Using Heroku for the first time was a huge challenge.
 
+## GitHub
 
-  ## Questions
-  If you have any questions, please contact me at [Jason Weaver](Jamaweaver@yahoo.com) or visit my GitHub page at [Jweaver74](https://github.com/Jweaver74)
+https://github.com/Jweaver74
+
+## Email
+
+jamaweaver@yahoo.com
+
+## Questions
+
+If you have any questions, please contact me at [Jason Weaver](Jamaweaver@yahoo.com) or visit my GitHub page at [Jweaver74](https://github.com/Jweaver74)
