@@ -17,15 +17,16 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(express.static("./public"));
 
+//GET * - Should return the index.html file
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "./public/index.html"));
+});
+
 //GET /notes - Should return the notes.html file.
 app.get("/notes", (req, res) => {
   res.sendFile(path.join(__dirname, "./public/notes.html"));
 });
 
-//GET * - Should return the index.html file
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "./public/index.html"));
-});
 
 //GET /api/notes - Should read the db.json file and return all saved notes as JSON.
 app.get("./api/notes", (req, res) => {
@@ -59,10 +60,10 @@ const writeToNewNoteToJson = (destination, content) =>
 //and then return the new note to the client.
 app.post("./api/notes", (req, res) => {
   const { title, text } = req.body;
-  if (req.body) {
+  if (title && text) {
     const newNote = {
-      title: title,
-      text: text,
+      title, title,
+      text, text,
       id: uniqid(),
     };
 
@@ -78,6 +79,23 @@ app.post("./api/notes", (req, res) => {
     res.json("Error in posting note");
   }
 });
+
+//DELETE /api/notes/:id - Should receive a query parameter containing the id of a note to delete.
+app.delete('/api/notes/:id', (req, res) => {
+  let id = req.params.id;
+  let parsedData;
+  fs.readFile('/db/db.json', 'utf8', (err, data) => {
+    if (err) {
+      console.log(err);
+    } else {
+      parsedData = JSON.parse(data);
+      const filterData = parsedData.filter((note) => note.id !== id); 
+      writeToNewNoteToJson('/db/db.json', filterData);
+    }
+  });
+  res.send(`Deleted note with ${req.params.id}`)
+});
+
 
 // app.listen(PORT, () => {
 app.listen(port, () =>

@@ -26,7 +26,7 @@ const hide = (elem) => {
 let activeNote = {};
 
 const getNotes = () =>
-  fetch('/api/notes', {
+  fetch("/api/notes", {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
@@ -79,7 +79,12 @@ const handleNoteSave = () => {
 
 // Delete the clicked note
 const handleNoteDelete = (e) => {
-  // Prevents the click listener for the list from being called when the button inside of it is clicked
+  const newNote ={
+    title: noteTitle.value,
+    text: noteText.value,
+
+  };
+  
   e.stopPropagation();
 
   const note = e.target;
