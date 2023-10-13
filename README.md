@@ -48,6 +48,7 @@ As a small business owner, I want to be able to write and save notes so that i c
 https://glacial-gorge-53622.herokuapp.com/
 
 ## Screen Shots
+![Home](public/assets/images/home%20screen2.png)
 ![homescreen](public/assets/images/home%20screen.png),
 ![notescreen](public/assets/images/note%20screen.png)
 ## Description
